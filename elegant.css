@@ -1,0 +1,64 @@
+h1 { 
+  text-align: center;
+  font-size: 4em;
+}
+h3 {
+display: inline;
+padding: 0 2% 0;
+font-size: 2em;
+}
+
+#header {
+  text-align: center;
+}
+
+hr {
+  border-top: 2px dotted;
+}
+#everything {
+  display: flex;
+  flex-direction: row;
+  margin: 5%;
+  text-align: center;
+}
+
+#form {
+  width: 45%;
+  font-size: 1.1em;
+}
+
+#liveInvite {
+  width: 500px;
+  height: 650px;
+  background-color:#A6E5DE;
+  text-align: center;
+  font-family: cursive;
+  border-style: dotted;
+  border-width: 10px;
+  border-color:#FCFBF6;
+}
+
+#initials {
+  text-transform: uppercase;
+  font-size: 3em;
+  padding: 5% 5% 0% 5%;
+}
+
+#lastName {
+  text-transform: capitalize;
+  font-size: 2em;
+}
+
+#namesTogether {
+  text-transform: capitalize;
+  font-size: 1.5em;
+  padding: 5% 5% 0% 10%;
+}
+
+#date {
+  font-weight: bold;
+}
+
+#location {
+  text-transform: capitalize;
+}
