@@ -1,0 +1,59 @@
+/*CSS styling for index.html*/
+
+
+/*Elements*/
+body {
+	background-image: url("https://cdn.pixabay.com/photo/2016/02/23/10/55/paper-1217311_1280.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+main {
+	margin: auto;
+}
+
+footer {
+	font-size: 80%;
+	text-align: right;
+}
+
+h1 {
+	text-align: center;
+}
+
+/*IDs*/
+#builder {
+	margin: 10px;
+}
+
+#outDetails {
+	background-image: url("https://images.unsplash.com/photo-1467165048326-5848fb9c0913");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 150px 0px;
+}
+
+#infoArea {
+	visibility: hidden;
+	font-family: 'Great Vibes', cursive;
+/*	font-family: 'New Rocker', cursive; */
+	font-size: 150%;
+	color: #990422;
+	background-color: rgba(253, 210, 249, 0.5);
+	padding: 10px;
+	margin: 0px 100px;
+}
+
+/*Grid Classes*/
+
+.gridContainer {
+	display: grid;
+	grid-template-columns: 10% 40% 40% 10%;
+	grid-template-rows: auto;
+}
+.gridItem {
+/*	border: 1px solid white; */
+	text-align: center;
+}
