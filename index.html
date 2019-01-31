@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="UTf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src ="./index.js"></script>
+		<link rel="stylesheet" type="text/css" href="./css/style.css">
+		<link rel="stylesheet" type="text/css" href="./css/media.css">
+		<link href="https://fonts.googleapis.com/css?family=Great+Vibes|New+Rocker" rel="stylesheet">
+		<title>Wedding Invitation | Builder</title>
+		<meta name="description" content="Build your digital wedding invitation.">
+		<meta name="keywords" content="wedding, marriage, invitation, card, rsvp, save the date, builder, design, editor">
+	</head>
+
+	<body>
+		<header>
+			<h1>Wedding Invitation Builder</h1>
+		</header>
+		
+		<main class="gridContainer">
+			
+			<section class="gridItem" id="leftMargin"></section>
+
+			<!-- This section is for choosing a theme and inputting event details -->
+			<section class="gridItem" id="builder">
+				
+				<!-- Buttons for choosing visual theme -->
+				<section id="theme">
+					<button id="elegant">Elegant</button>
+					<button id="metal">Metal</button>
+				</section>
+				
+				<!-- Input fields for entering event details -->
+				<section id="inDetails">
+					<form action="">
+						<h3>One Lucky Person</h3>
+						<input type="text" id="inFirst1" name="inFirst1" placeholder="First name">
+						
+						<h3>Another Lucky Person</h3>
+						<input type="text" id="inFirst2" name="inFirst2" placeholder="First name">
+						
+						<h3>Last Name(s)</h3>
+						<input type="text" id="inLast" name="inLast" placeholder="Last name(s)">
+
+						<h3>Event Date</h3>
+						<input type="date" id="inDate" name="inDate" placeholder="MM/DD/YYYY">
+
+						<h3>Event Location</h3>
+						<input type="text" id="inLocation" name="inLocation" placeholder="City">
+
+						<input type="reset" id="inReset" name="inReset" value="Start Over">
+					</form>
+				</section>
+			</section>
+
+			<!-- This section is for viewing the results of theme and inputs -->
+			<section class="gridItem" id="viewer">
+									
+				<!-- Section "outDetails" outputs the inputs from section "inDetails" -->
+				<section id="outDetails">
+					<div id="infoArea">
+						<div id="names">
+							<output id="outFirst1" for="inFirst1"> </output>
+							<p> & </p>
+							<output id="outFirst2" for="inFirst2"> </output>
+							<br>
+							<br>
+							<output id="outLast" for="inLast"> </output>		
+						</div>
+						<div id="logistics">
+							<p>Cordially Invite You To Their Wedding</p>
+							<output id="outDate" for="inDate"> </output>
+							<p>At</p>
+							<output id="outLocation" for="inLocation"> </output>
+						</div>
+					</div>
+				</section>
+			</section>
+
+			<section class="gridItem" id="rightMargin"></section>
+
+		</main>
+		
+		<footer>
+			<p>2019 Greyson Harris All Rights Reserved</p>
+		</footer>
+	</body>
+
+</html>
